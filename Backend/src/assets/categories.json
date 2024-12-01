@@ -1,0 +1,53 @@
+{
+  "categories": [
+    {
+      "name": "General Education Requirements",
+      "courses": [
+        "ENGL 1101",
+        "ENGL 1102",
+        "MATH 1112",
+        "MATH 1113",
+        "ECON 1000",
+        "COM 1100",
+        "MATH 1190",
+        "POLS 1101"
+      ]
+    },
+    {
+      "name": "Area F Lower Division Major Requirements",
+      "courses": ["CSE 1321/L", "CSE 1322/L", "MATH 2202"]
+    },
+    {
+      "name": "Upper Division Major Courses",
+      "courses": [
+        "CS 3305/L",
+        "CS 3503/L",
+        "CS 3502",
+        "SWE 3313",
+        "CS 3410",
+        "CS 4306",
+        "CS 4308",
+        "CSE 3801",
+        "CS 4850",
+        "TCOM 2010",
+        "MATH 2345",
+        "MATH 3332"
+      ]
+    },
+    {
+      "name": "Major Electives",
+      "courses": [
+        "CS 4242",
+        "CS 4265",
+        "CS 4267",
+        "CS 4270",
+        "CS 4322",
+        "CS 4512",
+        "CS 4514",
+        "CS 4522",
+        "CS 4612",
+        "CS 4622"
+      ]
+    }
+  ]
+}

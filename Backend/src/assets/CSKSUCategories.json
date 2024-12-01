@@ -1,0 +1,220 @@
+[
+  {
+    "category": "General Education Requirements",
+    "courses": [
+      {
+        "code": "ENGL 1101",
+        "name": "Composition I",
+        "creditHours": 3,
+        "prerequisite": []
+      },
+      {
+        "code": "ENGL 1102",
+        "name": "Composition II",
+        "creditHours": 3,
+        "prerequisite": []
+      },
+      {
+        "code": "MATH 1112",
+        "name": "College Trigonometry",
+        "creditHours": 3,
+        "prerequisite": []
+      },
+      {
+        "code": "MATH 1113",
+        "name": "Precalculus",
+        "creditHours": 3,
+        "prerequisite": []
+      },
+      {
+        "code": "ECON 1000",
+        "name": "Contemporary Economic Issues",
+        "creditHours": 2,
+        "prerequisite": []
+      },
+      {
+        "code": "COM 1100",
+        "name": "Human Communication",
+        "creditHours": 3,
+        "prerequisite": []
+      },
+      {
+        "code": "MATH 1190",
+        "name": "Calculus I",
+        "creditHours": 4,
+        "prerequisite": []
+      },
+      {
+        "code": "POLS 1101",
+        "name": "American Government",
+        "creditHours": 3,
+        "prerequisite": []
+      }
+    ]
+  },
+  {
+    "category": "Area F Lower Division Major Requirements",
+    "courses": [
+      {
+        "code": "CSE 1321/L",
+        "name": "Programming & Problem Solving I",
+        "creditHours": 4,
+        "prerequisite": ["MATH 1112", "MATH 1113", "MATH 1190"]
+      },
+      {
+        "code": "CSE 1322/L",
+        "name": "Programming & Problem Solving II",
+        "creditHours": 4,
+        "prerequisite": ["CSE 1321/L"]
+      },
+      {
+        "code": "MATH 2202",
+        "name": "Calculus II",
+        "creditHours": 4,
+        "prerequisite": ["MATH 1190"]
+      }
+    ]
+  },
+  {
+    "category": "Upper Division Major Courses",
+    "courses": [
+      {
+        "code": "CS 3305/L",
+        "name": "Data Structures",
+        "creditHours": 4,
+        "prerequisite": ["CSE 1322/L", "MATH 2345"]
+      },
+      {
+        "code": "CS 3503/L",
+        "name": "Computer Organization & Architecture",
+        "creditHours": 4,
+        "prerequisite": ["CSE 1322/L"]
+      },
+      {
+        "code": "CS 3502",
+        "name": "Operating Systems",
+        "creditHours": 3,
+        "prerequisite": ["CS 3503/L", "CS 3305/L"]
+      },
+      {
+        "code": "SWE 3313",
+        "name": "Intro to Software Engineering",
+        "creditHours": 3,
+        "prerequisite": ["CSE 1322/L"]
+      },
+      {
+        "code": "CS 3410",
+        "name": "Introduction to Database Systems",
+        "creditHours": 3,
+        "prerequisite": ["CSE 1322/L"]
+      },
+      {
+        "code": "CS 4306",
+        "name": "Algorithm Analysis",
+        "creditHours": 3,
+        "prerequisite": ["CS 3305/L"]
+      },
+      {
+        "code": "CS 4308",
+        "name": "Programming Languages",
+        "creditHours": 3,
+        "prerequisite": ["CS 3503/L", "CS 3305/L"]
+      },
+      {
+        "code": "CSE 3801",
+        "name": "Professional Practices and Ethics",
+        "creditHours": 2,
+        "prerequisite": ["CSE 1322/L"]
+      },
+      {
+        "code": "CS 4850",
+        "name": "Senior Project",
+        "creditHours": 3,
+        "prerequisite": ["CS 3502", "SWE 3313"]
+      },
+      {
+        "code": "TCOM 2010",
+        "name": "Technical Writing",
+        "creditHours": 3,
+        "prerequisite": ["ENGL 1102"]
+      },
+      {
+        "code": "MATH 2345",
+        "name": "Discrete Mathematics",
+        "creditHours": 3,
+        "prerequisite": ["MATH 1112", "MATH 1113", "MATH 1190"]
+      },
+      {
+        "code": "MATH 3332",
+        "name": "Probability and Inference",
+        "creditHours": 3,
+        "prerequisite": ["MATH 2202"]
+      }
+    ]
+  },
+  {
+    "category": "Major Electives",
+    "courses": [
+      {
+        "code": "CS 4242",
+        "name": "Artificial Intelligence",
+        "creditHours": 3,
+        "prerequisite": ["CS 3305/L"]
+      },
+      {
+        "code": "CS 4265",
+        "name": "Big Data Analytics",
+        "creditHours": 3,
+        "prerequisite": ["CS 3305/L", "CS 3410"]
+      },
+      {
+        "code": "CS 4267",
+        "name": "Machine Learning",
+        "creditHours": 3,
+        "prerequisite": ["CS 3305/L", "CS 3410"]
+      },
+      {
+        "code": "CS 4270",
+        "name": "Intelligent Systems in Bioinformatics",
+        "creditHours": 3,
+        "prerequisite": ["CS 3305/L", "CS 3410"]
+      },
+      {
+        "code": "CS 4322",
+        "name": "Mobile Software Development",
+        "creditHours": 3,
+        "prerequisite": ["CS 3305/L", "SWE 3313", "CS 3410"]
+      },
+      {
+        "code": "CS 4512",
+        "name": "Systems Programming",
+        "creditHours": 3,
+        "prerequisite": ["CS 3502"]
+      },
+      {
+        "code": "CS 4514",
+        "name": "Real-Time Systems",
+        "creditHours": 3,
+        "prerequisite": ["CS 3502"]
+      },
+      {
+        "code": "CS 4522",
+        "name": "HPC & Parallel Programming",
+        "creditHours": 3,
+        "prerequisite": ["CS 3502"]
+      },
+      {
+        "code": "CS 4612",
+        "name": "Secure Software Development",
+        "creditHours": 3,
+        "prerequisite": ["CS 3503/L"]
+      },
+      {
+        "code": "CS 4622",
+        "name": "Computer Networks",
+        "creditHours": 3,
+        "prerequisite": ["CS 3503/L"]
+      }
+    ]
+  }
+]

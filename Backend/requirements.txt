@@ -1,0 +1,28 @@
+- We'll try to build the backend for a chatbot using Node.JS and OpenAI API
+- I would like to be able to log in, log out and sign up the users
+- During the registration we'll take the following information from the user:
+
+    * Name
+    * School Email
+    * University
+    * Birth Date
+    * Academic semester
+    * Choose the list of courses taken
+
+- After registration, users should be able to select and update the list of courses they have already completed.
+- The main goal of the application is to give AI assisted recommendations based on material available on KSU's website
+We'll try to fetch this information to display it to the user so I want accurate prompts for the backend
+
+- The application should provide a way for users to view, add, remove, and update their completed courses.
+- This course information should be used to tailor recommendations and assistance provided by the AI.
+
+- Finally I'm looking for a Schedule management module but this is not really the main concern for the moment. This module will do notifications to the user to remind him of important events
+
+Additional considerations for the course selection feature:
+- Implement an API endpoint for fetching the list of available courses.
+- Create endpoints for adding, removing, and updating user's completed courses.
+- Store the user's completed courses in the database, associated with their user profile.
+- Ensure that the AI recommendations take into account the user's completed courses.
+- Consider implementing a search or filter functionality to help users find courses easily when selecting them.
+
+- Update: We have added a new feature to the application. Users can now create and manage sessions. Sessions will store the user's id and completed courses per category. This will help in providing more accurate recommendations.
